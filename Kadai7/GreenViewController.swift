@@ -26,7 +26,6 @@ class GreenViewController: UIViewController {
         textField1.resignFirstResponder()
         textField2.resignFirstResponder()
     }
-    // 画面をタップした際にキーボードを閉じる
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
